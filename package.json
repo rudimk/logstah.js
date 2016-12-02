@@ -2,7 +2,7 @@
   "name": "logstah.js",
   "version": "0.1.0",
   "description": "A generic logging library for Node.js, with RethinkDB as the logstore.",
-  "main": "main.js",
+  "main": "logstah.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -22,6 +22,7 @@
   "homepage": "https://github.com/rudimk/logstah.js#readme",
   "dependencies": {
     "moment-timezone": "^0.5.10",
-    "rethinkdb": "^2.3.3"
+    "rethinkdb": "^2.3.3",
+    "rethinkdbdash": "^2.3.27"
   }
 }
